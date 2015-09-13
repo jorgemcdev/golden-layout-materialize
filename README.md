@@ -14,4 +14,4 @@ Golden Layout and Materializecss demo, it can save state in browser Local Storag
 
 ## Link:
 
-Based on a demo from https://golden-layout.com/tutorials/saving-state.html
+http://golden-layout.com
