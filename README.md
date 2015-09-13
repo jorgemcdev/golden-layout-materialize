@@ -12,6 +12,7 @@ Golden Layout and Materializecss demo, it can save state in browser Local Storag
 2. js/script.js
 
 
-## Link:
+## Links:
 
+http://materializecss.com
 http://golden-layout.com
