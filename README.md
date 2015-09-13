@@ -1,6 +1,6 @@
 # Golden Layout Materializecss demo
 
-This is a demo for Golden Layout and Materializecss
+Golden Layout and Materializecss demo able to save state in browser Local Storage to find everything just the way you left it.
 
 ## Installation
 
