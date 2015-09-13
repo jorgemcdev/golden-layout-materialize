@@ -4,7 +4,7 @@ Golden Layout and Materializecss demo, it can save state in browser Local Storag
 
 ## Installation
 
-1. Clone the repository git clone [GitHub]
+1. Clone the repository git clone https://github.com/jorgekarv/golden-layout-materialize
 
 ## Main Files
 
