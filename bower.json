@@ -1,0 +1,22 @@
+{
+  "name": "golden-layout-materialize",
+  "version": "0.0.1",
+  "description": "Golden Layout and Materializecss demo",
+  "keywords": [
+    "Golden",
+    "Materializecss",
+    "SaveState"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.0",
+    "golden-layout": "~1.0.10"
+  }
+}

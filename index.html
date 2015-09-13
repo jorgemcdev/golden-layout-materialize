@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="bower_components/Materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!--Import Golden Layout.css-->
+    <link type="text/css" rel="stylesheet" href="bower_components/golden-layout/src/css/goldenlayout-base.css" />
+    <link type="text/css" rel="stylesheet" href="bower_components/golden-layout/src/css/goldenlayout-light-theme.css" />
+    <link type="text/css" rel="stylesheet" href="css/golden-layout-custom.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <style>
+    header, main, footer {
+      padding-left: 240px;
+    }
+
+     @media only screen and (max-width : 992px) {
+       header, main, footer {
+         padding-left: 0;
+       }
+     }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar goes here -->
+    <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper blue">
+
+            <a href="#!" class="brand-logo center">Golden Layout and Materializecss</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <ul class="right hide-on-med-and-down">
+
+
+              <li><a href="">Link1</a></li>
+              <li><a href="">Link2</a></li>
+              <li>
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-button' href='#' data-activates='dropdown2'><i class="material-icons">person</i></a>
+                <!-- Dropdown Structure -->
+                 <ul id='dropdown2' class='dropdown-content'>
+                   <li><a href="#!">one</a></li>
+                   <li><a href="#!">two</a></li>
+                   <li class="divider"></li>
+                   <li><a href="#!">three</a></li>
+                 </ul>
+              </li>
+
+            </ul>
+
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">Link 1</a></li>
+              <li><a href="">Link 2</a></li>
+              <li><a href="">Logout</a></li>
+            </ul>
+
+      </div>
+    </nav>
+
+  </div>
+
+    <!-- Page Layout here -->
+
+      <div class="row">
+
+        <div class="col s12 m12">
+
+          <div id="testComponent"></div>
+
+        </div>
+      </div> <!-- End row -->
+
+</body>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+
+<!--Import Golden Layout-->
+<script type="text/javascript" src="bower_components/golden-layout/dist/goldenlayout.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+<script>
+  $( document ).ready(function(){
+      $(".button-collapse").sideNav();
+  });
+
+  $('.dropdown-button').dropdown({
+     inDuration: 300,
+     outDuration: 225,
+     constrain_width: false, // Does not change width of dropdown to that of the activator
+     hover: false, // Activate on hover
+     gutter: 0, // Spacing from edge
+     belowOrigin: true // Displays dropdown below the button
+   }
+ );
+</script>
+
+<script>
+  // Initialize collapse button
+  $(".button-collapse").sideNav();
+  // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+  $('.collapsible').collapsible();
+</script>
+
+</html>

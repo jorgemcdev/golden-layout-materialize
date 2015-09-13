@@ -1,0 +1,44 @@
+{
+  "name": "golden-layout",
+  "version": "1.0.10",
+  "homepage": "https://golden-layout.com",
+  "authors": [
+    "Hoxton One Ltd. <info@golden-layout.com>"
+  ],
+  "description": "the ultimate javascript layout manager",
+  "main": "dist/goldenlayout.min.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "layoutmanager",
+    "layout manager",
+    "html5",
+    "javascript",
+    "layout",
+    "docker",
+    "popup"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "license": "CC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "lib"
+  ],
+  "_release": "1.0.10",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.10",
+    "commit": "008015268f4843a60022683f30c412432842329a"
+  },
+  "_source": "git://github.com/hoxton-one/golden-layout.git",
+  "_target": "~1.0.10",
+  "_originalSource": "golden-layout",
+  "_direct": true
+}
